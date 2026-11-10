@@ -6,7 +6,7 @@ export default {
   /** -------------------------------------------------以下可选修改----------------------------------------------------- */
 
   title: "小袁博客", // 网站标题
-  nickName: "<your-nickname>", // 昵称
+  nickName: "小袁博客", // 昵称
   domain: "https://<your-blog-domain>", // rss域名
   SEO_title: " - <your-blog-title>", // 搜索引擎显示的标题
   SEO_keywords: "<your-keywords>", // keywords meta header
@@ -29,11 +29,9 @@ export default {
   themeColorDark: "neutral", // 主题色(夜间模式)
   defaultLang: "zh", // default language, "zh" and "en" are supported currently
   about: [
-    "Hello there",
-    "Welcome to my new blog"
   ],
 
   /** -------------------------------------------------注意----------------------------------------------------- */
 
-  githubRepo: "yz-blog" // 必须与你的 GitHub 仓库名一致
+  githubRepo: "yz-blog" // 需要与仓库名一致，如果fork时更改了仓库名，则这里也要改
 };
